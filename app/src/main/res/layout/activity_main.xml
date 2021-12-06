@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="0px"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/edit1_sothu1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:hint="@string/edit1_hint"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/edit2_sothu2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="110dp"
+        android:hint="@string/edit2_hint"
+        android:minHeight="48dp" />
+
+    <TextView
+        android:id="@+id/text_viewketqua"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:fontFamily="sans-serif"
+        android:textColor="@color/text_color"
+        android:textSize="50px"
+        android:gravity="center"
+        android:typeface="monospace" />
+
+    <Button
+        android:id="@+id/btn4_thuong"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="300dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="170dp"
+        android:text="/"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn3_tich"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="200dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="170dp"
+        android:text="*"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn2_hieu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="170dp"
+        android:text="-"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn1_tong"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="170dp"
+        android:text="+"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:gravity="center"
+        android:text="Xây dựng chương trình tính tổng, hiệu, tích, thương của hai số"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text1"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="121TLTTD04_Nguyễn Đăng Khoa_1911505310171"
+        android:textColor="@color/black" />
+
+
+</RelativeLayout>

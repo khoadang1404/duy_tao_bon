@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Bai1</string>
+    <string name="edit1_hint">Nhập số a</string>
+    <string name="edit2_hint">Nhập số b</string>
+</resources>
